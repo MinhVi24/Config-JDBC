@@ -9,7 +9,7 @@ import java.sql.Statement;
 
 public class JDBConnection {
 	public static Connection getConnection() {
-		String URL = "jdbc:sqlserver://localhost:1433;databaseName=team3;user = SA;password = Password.1;trustServerCertificate=true";
+		String URL = "jdbc:sqlserver://localhost:1433;databaseName=sinhhoathe;user = SA;password = 12345;trustServerCertificate=true";
 		Connection conn = null;
 		try {
 			conn = DriverManager.getConnection(URL);
